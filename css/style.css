@@ -131,6 +131,34 @@ body {
     font-size: 1.4rem;
     color: #8d8c91; }
 
+.feature-icon__icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  box-shadow: 0rem 2rem 3rem rgba(0, 0, 0, 0.1);
+  border-radius: 50%; }
+
+.feature-icon__icon {
+  width: 7rem;
+  height: 7rem;
+  fill: #625ebd; }
+
+.feature-icon__text-box {
+  text-align: center; }
+
+.feature-icon__title {
+  font-weight: 500;
+  font-size: 2rem; }
+
+.feature-icon__text {
+  font-size: 1.4rem;
+  color: #8d8c91; }
+
 .gallery {
   background-color: #30297d;
   padding: 3rem;
@@ -292,3 +320,7 @@ body {
 
 .section-why-use-dw {
   padding: 15rem 0; }
+
+.section-features-icons {
+  padding: 15rem 0;
+  background-color: #f9f8fd; }

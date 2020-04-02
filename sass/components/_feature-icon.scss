@@ -1,0 +1,36 @@
+.feature-icon {
+
+    &__icon-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 15rem;
+        height: 15rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        box-shadow: 0rem 2rem 3rem rgba($color-black, .1);
+        border-radius: 50%;
+    }
+
+    &__icon {
+        width: 7rem;
+        height: 7rem;
+        fill: $color-primary;
+    }
+
+    &__text-box {
+        text-align: center;
+
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        color: $color-grey-1;
+    }
+}
