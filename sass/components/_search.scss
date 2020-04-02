@@ -1,0 +1,41 @@
+.search {
+    flex: 0 0 40%;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__input {
+        font-family: inherit;
+        width: 77%;
+        padding: 2.1rem 3.8rem;
+        border-radius: 100px;
+        border: 1px solid rgba($color-grey-1, .3);
+        font-size: 1.5rem;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: rgba($color-grey-1, .8);
+        }
+    }
+
+
+    &__button {
+        padding: 1.6rem;
+        margin-left: -6rem;
+        background-color: $color-orange;
+        border: none;
+        border-radius: 50%;
+    }
+
+    &__icon {
+        fill: $color-white;
+        height: 2rem;
+        width: 2rem;
+    }
+}

@@ -159,6 +159,34 @@ body {
   font-size: 1.4rem;
   color: #8d8c91; }
 
+.search {
+  flex: 0 0 40%; }
+  .search__container {
+    display: flex;
+    justify-content: center; }
+  .search__input {
+    font-family: inherit;
+    width: 77%;
+    padding: 2.1rem 3.8rem;
+    border-radius: 100px;
+    border: 1px solid rgba(141, 140, 145, 0.3);
+    font-size: 1.5rem; }
+    .search__input:focus {
+      outline: none; }
+    .search__input::-webkit-input-placeholder {
+      font-weight: 100;
+      color: rgba(141, 140, 145, 0.8); }
+  .search__button {
+    padding: 1.6rem;
+    margin-left: -6rem;
+    background-color: #ff5800;
+    border: none;
+    border-radius: 50%; }
+  .search__icon {
+    fill: #fff;
+    height: 2rem;
+    width: 2rem; }
+
 .gallery {
   background-color: #30297d;
   padding: 3rem;
@@ -324,3 +352,6 @@ body {
 .section-features-icons {
   padding: 15rem 0;
   background-color: #f9f8fd; }
+
+.section-try-demo {
+  padding: 15rem 0; }
