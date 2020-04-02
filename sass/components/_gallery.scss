@@ -1,0 +1,11 @@
+.gallery {
+    background-color: $color-purple-dark;
+    padding: 3rem;
+    border-radius: 25px;
+    
+    &__photo {
+        width: 45%;
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    height: 100vh;
+
+    &__text-box {
+        text-align: center;
+        margin-top: 8rem;
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        color: $color-grey-1;
+        font-weight: 700;
+    }
+
+    &__hero-image {
+        display: block;
+        margin: 0 auto;
+        width: 34%;
+    }
+}

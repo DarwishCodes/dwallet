@@ -1,0 +1,65 @@
+.steps {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    &__left {
+        margin-right: 3rem;
+    }
+
+    &__step-box {
+        text-align: center;
+        border: 1px solid rgba($color-purple, .4);
+        width: 27rem;
+        height: 27rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: rgba($color-yellow-2, 0);
+        transition: all .3s;
+    }
+
+    &__count-box {
+
+    }
+
+    &__number {
+        font-size: 4rem;
+        color: $color-purple;
+        transition: all .3s;
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        color: $color-purple;
+        transition: all .3s;
+    }
+
+    &__text-box {
+
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $color-grey-1;
+        transition: all .3s;
+    }
+
+    &:hover &__step-box {
+        border: 1px solid rgba($color-yellow-2, .4);
+        background-color: rgba($color-yellow-2, 1);
+    }
+
+    &:hover &__number {
+        color: $color-white;
+    }
+
+    &:hover &__title {
+        color: $color-white;
+    }
+
+    &:hover &__text {
+        color: $color-grey-3;
+    }
+}
