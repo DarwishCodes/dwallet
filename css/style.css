@@ -46,6 +46,8 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase; }
+  .heading-tertiary--white {
+    color: #fff; }
 
 .paragraph {
   font-size: 1.4rem;
@@ -235,6 +237,23 @@ body {
   .steps:hover .steps__text {
     color: #403f4f; }
 
+.footer {
+  padding: 10rem 0;
+  background-color: #625ebd; }
+  .footer__logo {
+    color: #fff; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 200; }
+  .footer__icon {
+    fill: #fff;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem; }
+
 .row2 {
   max-width: 114rem;
   margin: 0 auto; }
@@ -262,6 +281,8 @@ body {
     width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row2 .col-3-of-4 {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+  .row2 .col-1-of-5 {
+    width: calc((100% - 4 * 6rem) / 5); }
 
 .header {
   height: 100vh; }

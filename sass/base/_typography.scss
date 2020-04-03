@@ -37,6 +37,10 @@ body {
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
+
+    &--white {
+        color: $color-white;
+    }
 }
 
 
