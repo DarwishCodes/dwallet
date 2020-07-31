@@ -24,8 +24,13 @@
         }
     }
 
+    &__input-container {
+        position: relative;
+    }
 
     &__button {
+        position: absolute;
+        top: 0.9rem;
         padding: 1.6rem;
         margin-left: -6rem;
         background-color: $color-orange;
