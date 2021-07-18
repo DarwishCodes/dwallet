@@ -201,6 +201,11 @@ body {
     .search__input::-webkit-input-placeholder {
       font-weight: 100;
       color: rgba(141, 140, 145, 0.8); }
+  .search__input-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex: 0 1 90%; }
   .search__button {
     width: 5rem;
     height: 5rem;

@@ -30,6 +30,12 @@
         }
     }
 
+    &__input-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex: 0 1 90%;
+    }
 
     &__button {
         width: 5rem;
