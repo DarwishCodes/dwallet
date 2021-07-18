@@ -1,5 +1,11 @@
 .search {
     flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+
+    @include respond(tab-port) {
+        flex: 0 0 90%;
+    }
 
     &__container {
         display: flex;
@@ -26,7 +32,9 @@
 
 
     &__button {
-        padding: 1.6rem;
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
         margin-left: -6rem;
         background-color: $color-orange;
         border: none;

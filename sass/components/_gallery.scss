@@ -8,4 +8,10 @@
         display: block;
         margin: 0 auto;
     }
+
+    @include respond(tab-port) {
+        margin-bottom: $gutter-vertical-small;
+    }
+    
+    
 }

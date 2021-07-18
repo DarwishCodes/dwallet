@@ -33,4 +33,8 @@
         font-size: 1.4rem;
         color: $color-grey-1;
     }
+
+    @include respond(tab-port) {
+        margin-bottom: $gutter-vertical-small;
+    }
 }
